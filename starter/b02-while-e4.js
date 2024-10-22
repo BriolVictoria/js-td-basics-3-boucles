@@ -1,7 +1,7 @@
 /*****************************
-* 6. BOUCLES ET ITÉRATIONS
-* BOUCLE = STRUCTURE DE CONTRÔLE N° 2 = MOYEN DE RÉPÉTER DES INSTRUCTIONS
-*/
+ * 6. BOUCLES ET ITÉRATIONS
+ * BOUCLE = STRUCTURE DE CONTRÔLE N° 2 = MOYEN DE RÉPÉTER DES INSTRUCTIONS
+ */
 
 /*
 Affichez les 10 premières valeurs de la table de multiplication choisie par l'utilisateur
@@ -18,5 +18,17 @@ Pour chaque itération, assurez-vous de vous arrêter après avoir affiché les 
 
 // 3. Utilisez un titre approprié pour informer l'utilisateur de ce qui est affiché, par exemple : "Voici les 10 premières valeurs de la table de multiplication par 7."
 */
+
+let table = parseInt(prompt("Choisisez une table de multiplication"));
+let i = 1;
+
+if (table) {
+    while (i <= 10) {
+        console.log(`${table} * ${i} = ${table * i}`)
+        i ++
+    }
+} else {
+    console.log("Veillez entrer un nombre")
+}
 
 

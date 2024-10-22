@@ -1,7 +1,7 @@
 /*****************************
-* 6. BOUCLES ET ITÉRATIONS
-* BOUCLE = STRUCTURE DE CONTRÔLE N° 2 = MOYEN DE RÉPÉTER DES INSTRUCTIONS
-*/
+ * 6. BOUCLES ET ITÉRATIONS
+ * BOUCLE = STRUCTURE DE CONTRÔLE N° 2 = MOYEN DE RÉPÉTER DES INSTRUCTIONS
+ */
 
 /*
   6.3. Erreurs fréquentes
@@ -22,3 +22,10 @@ CORRECTION :
 - Incrémentez 'nombre' à chaque itération pour éviter une boucle infinie.
 
 */
+
+let i = 1;
+
+while (i <= 5) {
+    console.log(i)
+    i++
+}

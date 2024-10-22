@@ -1,7 +1,7 @@
 /*****************************
-* 6. BOUCLES ET ITÉRATIONS
-* BOUCLE = STRUCTURE DE CONTRÔLE N° 2 = MOYEN DE RÉPÉTER DES INSTRUCTIONS
-*/
+ * 6. BOUCLES ET ITÉRATIONS
+ * BOUCLE = STRUCTURE DE CONTRÔLE N° 2 = MOYEN DE RÉPÉTER DES INSTRUCTIONS
+ */
 
 /* 6.2. Boucle WHILE
   La boucle `while` permet de répéter des instructions tant qu'une condition est vérifiée.
@@ -26,8 +26,17 @@ BONUS :
 */
 
 
+while (true) {
+    let letter;
 
+    letter = prompt("Tapez une lettre ou X pour sortir :");
 
+    console.log("Vous avez saisi : " + letter);
+
+    if (letter === "X") {
+        break;
+    }
+}
 
 // code avec le bonus
 

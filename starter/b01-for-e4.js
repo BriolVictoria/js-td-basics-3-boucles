@@ -25,3 +25,17 @@
     - que se passe-t-il si vous avez déclaré i avec let ?
     - que se passe-t-il si vous déclarez i avec var ?
 */
+// const toto=10 une oprération et aussi afféctation de la constante
+const table = parseInt(prompt("Entrez une table de multiplication..."));
+
+if (table) {
+    if (table > 0) {
+        for (let i=1; i<=10; i++) {
+            console.log(`${i} * ${table} = ${i*table}`);
+        }
+    } else {
+        console.log("Entrez un nombre positif");
+    }
+} else {
+    console.log("Entrez un nombre");
+}

@@ -18,3 +18,52 @@ N.B. Faites-le de deux manières différentes :
 // avec WHILE
 // Répétez le même processus avec une boucle WHILE, en demandant à nouveau la table de multiplication et le nombre de valeurs
 
+//1ermethode
+
+const table= parseInt(prompt("Quelle table de multiplication souhaitez-vous afficher ? La table de multiplication par"));
+const valeur=parseInt(prompt( "Combien de valeurs souhaitez-vous afficher pour cette table ?"));
+
+console.log(`Voici les ${valeur} premières valeurs de la table de multiplication par ${table} :`)
+
+if (valeur && table) {
+    for (let i=1; i<=valeur; i++) {
+        console.log(`${table} * ${i} = ${table * i}`)
+    }
+}else {
+    console.log("Veillez mettre un nombre")
+}
+
+for (let i=1; i<=valeur; i++) {
+    console.log(`${table} * ${i} = ${table * i}`)
+}
+
+//2emethode
+
+
+/*
+const table = parseInt(prompt("Quelle table de multiplication souhaitez-vous afficher ? La table de multiplication par"));
+const valeur = parseInt(prompt("Combien de valeurs souhaitez-vous afficher pour cette table ?"));
+
+console.log(`Voici les ${valeur} premières valeurs de la table de multiplication par ${table} :`)
+
+let j = 1;
+
+while (j <= valeur) {
+    console.log(`${table} * ${j} = ${table * j}`)
+    j++
+}
+*/
+
+
+/*let table = parseInt(prompt("Quelle table de multiplication souhaitez-vous afficher ? La table de multiplication par"));
+console.log(table);
+
+let valeur = parseInt(prompt("Combien de valeurs souhaitez-vous afficher pour cette table ?"));
+console.log(valeur);
+
+if (table) {
+    for (let i = 1; i <= 10; i++)
+        console.log(`${table} * ${valeur} = ${table * valeur}`)
+} else {
+    console.log("Veillez entrer un nombre");
+}*/

@@ -33,3 +33,28 @@ EXEMPLE 1 :
 // ...
 // nbre = 10,  10 <= 10 true,        affiche 10,         nbre passe à 10+1 = 11
 // nbre = 11,  11 <= 10 FALSE,       on sort de la boucle !
+
+
+
+/*
+const un = 1;
+const deux = 2;
+const trois = 3;
+const quatre = 4;
+const cinq = 5;
+const six = 6;
+const sept = 7;
+const huit = 8;
+const neuf = 9;
+const dix = 10;
+*/
+
+let i = 1;
+
+for (let i = 0; i <= 10; i++) {
+    console.log(i);
+}
+
+
+
+
